@@ -1,0 +1,34 @@
+.navbar{
+  align-items: center;
+  width: 100%;
+  padding-left: 15%;
+  padding-right: 10%;
+} 
+
+.span{
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: space-between;
+}
+.card-wrapper{
+  margin: 10px;
+  width:380px;
+}
+.card-container{
+  display: grid;
+  grid-template-columns: auto auto auto;
+
+}
+.card-image{
+  width:370px;
+  height: 190px;
+  margin-left: 5px;
+}
+
+.nav-item:focus{
+  font-weight: bold;
+  color: #0004ff; 
+}
+.nav-item{
+  color: black;
+}
